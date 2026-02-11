@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Throughout this project, I creted various virtual VMs and built a mini honeynet in Azure to help attract attacks from various sources. I later used a log analytics workspace in order to ingest log sources from different sources.  I then used Microsft sentinel in order to map out the attacks and their sources, triggered different alerts (e.g brute force attacks), and created various incidents. Later on, I measured some security metrices such as Azure Network Analytics_CL (malicious flaws triggered allowed into my honeynet), SecurityAlert (Triggered log analytics alerts), SecurityIncident( Incidents creted by sentintel), Syslog (Linux Events Logs), and SecurityEvent (windows Event Logs), in an insecure evironment over the course of 24 hours. Then, I apllied some security controls in order to harden the system and the environment, before I Finally measured the metrics for and another 24 hours.
+Throughout this project, I created various virtual VMs and built a mini honeynet in Azure to help attract attacks from various sources. I later used a log analytics workspace in order to ingest log sources from different sources.  I then used Microsft sentinel in order to map out the attacks and their sources, triggered different alerts (e.g brute force attacks), and created various incidents. Later on, I measured some security metrices such as Azure Network Analytics_CL (malicious flaws triggered allowed into my honeynet), SecurityAlert (Triggered log analytics alerts), SecurityIncident( Incidents creted by sentintel), Syslog (Linux Events Logs), and SecurityEvent (windows Event Logs), in an insecure evironment over the course of 24 hours. Then, I apllied some security controls in order to harden the system and the environment, before I Finally measured the metrics for and another 24 hours.
 
 The metrics I measured are:
 
@@ -77,7 +77,7 @@ Stop Time	 2025-03-14 21:03
 
 ## Conclusion
 
-Throughout this projest, I constructed a mini honeynet using Microsift Azure. amd integrated log sources into a log analytics workspace. I also triggered alerts and created incidents based on the ingested logs vi Micrososft Sentinel's deployment. In addition, I measured 5 metrics in the insecure environment for 24 hours before applying security controls. I then later implemented security measures before measuring the metrics again for another 24 hours. The security controls applied have proven to be effective as they seemed to have decreased the number of security events and incidents. 
+Throughout this projest, I constructed a mini honeynet using Microsift Azure. amd integrated log sources into a log analytics workspace. I also triggered alerts and created incidents based on the ingested logs via Micrososft Sentinel's deployment. In addition, I measured 5 metrics in the insecure environment for 24 hours before applying security controls. I then later implemented security measures before measuring the metrics again for another 24 hours. The security controls applied have proven to be effective as they seemed to have decreased the number of security events and incidents. 
 
 
 Had the network been heavily used by normal users, it would have likely caused more security alerts in the 24 hours after the security controls' implementation. .

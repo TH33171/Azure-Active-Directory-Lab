@@ -1,5 +1,5 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![Azure Active Directory Home lab + Cloud SOC Project](https://i.imgur.com/ZWxe03e.jpg)
+![Azure Active Directory Home lab + Cloud SOC Project](https://imgur.com/a/OwONO3s)
 
 ## Introduction
 

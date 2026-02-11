@@ -39,8 +39,9 @@ To measure the "AFTER" metrics, I hardened all the NSGs by blocking ALL traffic 
 
 <img width="1881" height="836" alt="nsg-malicious-allowed in" src="https://github.com/user-attachments/assets/a49e496e-bda3-45db-8534-fd7db790b4f8" />
 <img width="1879" height="779" alt="linux ssh auth fail" src="https://github.com/user-attachments/assets/59b137d1-c14c-4560-b3b2-7793e21dea75" />
-<img width="1917" height="1038" alt="mssql-auth-fail" src="https://github.com/user-attachments/assets/42444244-5b4b-4373-94c1-092d1900ce88" />
-<img width="1908" height="1027" alt="windows-rdp-auth-fail" src="https://github.com/user-attachments/assets/a970f6c1-13d9-417e-bba8-16aa48cfaf8f" />
+<img width="1901" height="858" alt="mssql-auth-fail 2" src="https://github.com/user-attachments/assets/3e3aa8dc-9c94-4d9e-abe9-43840fdc2dee" />
+<img width="1902" height="870" alt="windows-rdp-auth-fail  2" src="https://github.com/user-attachments/assets/8ac68efb-2d83-4de4-8655-10b3a006a64c" />
+
 
 ## Metrics Before Hardening / Security Controls
 

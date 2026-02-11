@@ -56,9 +56,15 @@ Stop Time  2025-03-11 21:03
 | SecurityIncident         | 73
 | AzureNetworkAnalytics_CL | 103
 
-## Attack Maps Before Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```  -------------------------------------------------------
+<img width="1909" height="910" alt="linux-ssh-auth- fail (AFTER)" src="https://github.com/user-attachments/assets/2f59e631-e4f7-4414-8d43-9ce615049e9f" />
+
+<img width="1917" height="867" alt="mssql-auth-fail (AFTER)" src="https://github.com/user-attachments/assets/6abca333-546e-4a00-8ed1-f0ff6d76378c" />
+
+<img width="1912" height="869" alt="windows-rdp-auth-fail (AFTER)" src="https://github.com/user-attachments/assets/f4568233-ce30-4421-a446-5b700679fed0" />
+
+<img width="1911" height="865" alt="Update nsg-malicious-allowed-in (AFTER)" src="https://github.com/user-attachments/assets/55b84db1-4fb0-4384-8fc6-f057d509a506" />
 
 ## Metrics After Hardening / Security Controls
 

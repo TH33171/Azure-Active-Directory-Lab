@@ -1,7 +1,7 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
 
 
-![Cloud Honeynet / SOC](https://i.imgur.com/a/OwONO3s.jpg) <blockquote class="imgur-embed-pub" lang="en" data-id="a/OwONO3s"  ><a href="//imgur.com/a/OwONO3s">Azure Active Directory</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
+![Cloud Honeynet / SOC](https://i.imgur.com/a/OwONO3s.jpg) 
 
 ## Introduction
 

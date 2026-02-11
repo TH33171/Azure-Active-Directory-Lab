@@ -36,9 +36,11 @@ To measure the "BEFORE" metrics, I left all my vms' built-in firewalls and Netwo
 To measure the "AFTER" metrics, I hardened all the NSGs by blocking ALL traffic except for the my admin workstation. I also used all the other resources' built-in forewalls to protect them as well as private endpoint. 
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+
+<img width="1881" height="836" alt="nsg-malicious-allowed in" src="https://github.com/user-attachments/assets/a49e496e-bda3-45db-8534-fd7db790b4f8" />
+<img width="1879" height="779" alt="linux ssh auth fail" src="https://github.com/user-attachments/assets/59b137d1-c14c-4560-b3b2-7793e21dea75" />
+<img width="1917" height="1038" alt="mssql-auth-fail" src="https://github.com/user-attachments/assets/42444244-5b4b-4373-94c1-092d1900ce88" />
+<img width="1908" height="1027" alt="windows-rdp-auth-fail" src="https://github.com/user-attachments/assets/a970f6c1-13d9-417e-bba8-16aa48cfaf8f" />
 
 ## Metrics Before Hardening / Security Controls
 
@@ -72,7 +74,7 @@ Stop Time	 2025-03-14 21:03
 | SecurityIncident         | 2
 | AzureNetworkAnalytics_CL | 0
 
-## Conclusion##
+## Conclusion
 
 Throughout this projest, I constructed a mini honeynet using Microsift Azure. amd integrated log sources into a log analytics workspace. I also triggered alerts and created incidents based on the ingested logs vi Micrososft Sentinel's deployment. In addition, I measured 5 metrics in the insecure environment for 24 hours before applying security controls. I then later implemented security measures before measuring the metrics again for another 24 hours. The security controls applied have proven to be effective as they seemed to have decreased the number of security events and incidents. 
 
